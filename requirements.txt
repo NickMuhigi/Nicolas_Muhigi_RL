@@ -1,0 +1,8 @@
+gymnasium
+stable-baselines3
+torch
+pygame
+numpy
+imageio
+imageio-ffmpeg
+reportlab
