@@ -1,3 +1,36 @@
+# Virtual environment
 .venv/
+
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Model files
+*.zip
+*.pth
+*.pt
+
+# RL logs
+logs/
+tensorboard/
+tb_logs/
+monitor/
+
+# Dataset folders (avoid pushing large data)
+data/
+datasets/
+
+# Checkpoints
+checkpoints/
+models/
+saved_models/
+
+# IDE & system files
+.vscode/
+.idea/
+*.DS_Store
+
+# Pygame generated files (optional)
+*.png
